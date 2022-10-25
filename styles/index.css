@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+    padding: 2em;
+}
+
+.attribution a { 
+    /* color: hsl(228, 45%, 44%);  */
+    color: hsl(51, 85%, 48%);
+    
+}
+
+main {
+    background-color: hsl(217, 54%, 11%);
+}
+
+section {
+    padding: 2em;
+
+}
+
+.main-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    border-radius: 1.2em;
+    font-family: 'Outfit', sans-serif;
+    box-shadow: -12px 14px 16px 7px rgba(0,0,0,0.75);
+
+}
+
+img {
+    width: 100%;
+    padding: 1.5em;
+    border-radius: 2.2em;
+}
+
+.card-content h2 {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.card-body p {
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    
+}
+
+.card-content-flex {
+    display: flex;
+    padding-top: 2em;
+}
+
+.entherum-svg{
+    color: hsl(178, 100%, 50%);
+    padding-left: 1.5em;
+    display: flex;
+    padding-right: .5em;
+    
+    /* border: 1px solid red; */
+    
+}
+
+.entherum-svg p {
+    padding-left: .5em;
+}
+
+.entherum-text {
+    color: hsl(178, 100%, 50%) !important;
+    text-align: left;
+    font-size: 14px;
+    
+    
+}
+
+.clock {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-left: 6.5em;
+    
+}
+
+.clock p {
+    /* border: 1px solid red; */
+    padding-left: .2em;
+}
+
+.avater {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-top: 1.5px solid hsl(215, 32%, 27%);
+    margin: 0 2em;
+    margin-top: .9em;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .9em;
+}
+
+
+.avater img {
+    width: 2em;
+    margin-left: -1.1em !important;
+    border: 1.89px solid white;
+    padding: 0;
+    
+    
+}
+
+.avater p {
+    /* border: 1px solid red; */
+    margin-left: -.9em;
+
+}
+.avater p b {
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
