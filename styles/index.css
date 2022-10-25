@@ -56,6 +56,17 @@ img {
     text-align: left;
     padding-left: 1em;
     padding-bottom: 1em;
+    
+}
+
+.card-content a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-content h2 a:hover {
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
 }
 
 .card-body p {
@@ -133,8 +144,13 @@ img {
     margin-left: -.9em;
 
 }
-.avater p b {
+.avater p a {
     color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.avater p a:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 
