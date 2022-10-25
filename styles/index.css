@@ -59,7 +59,7 @@ img {
     
 }
 
-.card-content a {
+.card-content h2 a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
