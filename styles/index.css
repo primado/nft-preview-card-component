@@ -42,22 +42,53 @@ section {
     border-radius: 1.2em;
     font-family: 'Outfit', sans-serif;
     box-shadow: -12px 14px 16px 7px rgba(0,0,0,0.75);
-
-}
-
-img {
-    width: 100%;
-    padding: 1.5em;
-    border-radius: 2.2em;
-}
-
-/* .card-content h2 {
-    color: hsl(0, 0%, 100%);
-    text-align: left;
-    padding-left: 1em;
-    padding-bottom: 1em;
     
-} */
+}
+
+.card-body .card__img {
+    margin: 1.5em;
+}
+
+.card__img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.card-img {
+    width: 100%;
+    /* padding: 1.5em; */
+    border-radius: 1.5em;
+    display: block;
+    /* border: 2px solid red; */
+}
+
+
+.third-eye {
+    position: absolute;
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    transition: opacity 0.25s;
+    border-radius: 1.5em;
+    
+}
+
+.third-eye:hover {
+    opacity: 1;
+}
+
+.eye-overlay {
+    width: 3.4em;
+    display: block;
+}
+
 
 .card-content a {
     text-decoration: none;
@@ -142,6 +173,7 @@ img {
     margin-left: -1.1em !important;
     border: 1.89px solid white;
     padding: 0;
+    border-radius: 1em;
     
     
 }
